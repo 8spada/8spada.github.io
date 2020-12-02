@@ -73,7 +73,7 @@ a{ text-decoration: none;
 
   }
 
-  @media (max-width: 450px) {   /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+  @media ( max-width: 550px) {   /*------------------------------------------------------------------------------------------------------------------------------------------------*/
     nav{
      background-color: royalblue;
      height: 25px;
@@ -100,7 +100,7 @@ a{ text-decoration: none;
      margin-bottom: 2%;
     }
     .box2{
-     background-color: tomato;
+     background-color: green;
      height: 400px;
      width: 100%;
      margin-top:2% ;
@@ -121,4 +121,19 @@ a{ text-decoration: none;
    background-color: black;
    height: 100px;
   }
+  #Elon{
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+    #teslaicon{
+      float: left;
+      width: 20%;
+      padding: 10px;
+    }
+    #spaceicon{
+        float: left;
+      width: 30%;
+      padding: 10px;
+    }
 }
