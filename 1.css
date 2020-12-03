@@ -1,7 +1,10 @@
 @media screen and (min-device-width: 1280px) {
+  body{
+    background: #16171b;
+  }
   nav{
-   background-color: royalblue;
-   height: 75px;
+   background-color: #202125;
+   height: 65px;
    display:flex;
    justify-content:center;
 
@@ -34,17 +37,18 @@
     }
 a{ text-decoration: none;
     font-size: 26pt;
-    color:white;}/*убираю подчеркивание текста ссылок*/
+    color:#01b075;}/*убираю подчеркивание текста ссылок*/
 .menu1 {
   margin-right:15px; /*Добавляю отступ у пунктов меню*/
   float:right; /*Размещаю список горизонтально для реализации меню*/
 }
   header{
-   background-color: lightskyblue;
+   background-color: #202125;
    height: 400px;
+   color: #01b075;
   }
   section{
-   background-color: gray;
+   background-color: #494d4e;
    height: 400px;
    margin: 75px 100px 75px 100px;
   }
@@ -53,29 +57,40 @@ a{ text-decoration: none;
    justify-content: space-between;
   }
   .box1{
-   background-color: tomato;
+   background-color: #202125;
    height: 350px;
    width: 48%;
+    color: #01b075;
   }
   .box2{
-   background-color: tomato;
+   background-color: #202125;
    height: 350px;
    width: 48%;
+    color: #01b075;
   }
   .prefooter{
-   background-color: silver;
+
+  text-align: center;
+   background-color: #494d4e;
+   color: #01b075;
    height: 40px;
   }
   footer{
-   background-color: black;
+   background-color: #202125;
    height: 100px;
+   color: #01b075;
+   text-align: center;
   }
- 
+
   }
   @media (min-width: 551px) and (max-width: 1279px)  /*------------------------------------------------------------------------------------------------------------------------------------------------*/
   {
+    h2{
+      color: white;  
+    }
+
     nav{
-     background-color: royalblue;
+     background-color: #994753;
      height: 55px;
      display:flex;
      justify-content:center;
@@ -101,6 +116,7 @@ a{ text-decoration: none;
        text-indent:20px;
       text-align: justify;
       padding: 5px;
+      color:white;
     }
     .menu {
         list-style: none; /*убираю маркеры списка*/
@@ -116,7 +132,7 @@ a{ text-decoration: none;
     float:right; /*Размещаю список горизонтально для реализации меню*/
     }
     header{
-     background-color: lightskyblue;
+     background-color:  #994753;
      height: auto;
      width: 100%;
      margin: 0px;
@@ -136,28 +152,33 @@ a{ text-decoration: none;
       margin-left: 0px;
     }
     .box1{
-     background-color: tomato;
+     background-color:  #994753;
      height: auto;
      width: 48%;
+     color:white;
     }
     .box2{
-     background-color: tomato;
+     background-color:  #994753;
      height: auto;
      width: 48%;
+     color:white;
     }
     .prefooter{
-     background-color: silver;
+     background-color:  #994753;
      height: 40px;
+     margin-bottom: 2%;
+     color:white;
     }
     footer{
-     background-color: black;
+     background-color:  #994753;
      height: 100px;
+     color:white;
     }
 }
 
   @media ( max-width: 551px) {   /*------------------------------------------------------------------------------------------------------------------------------------------------*/
     nav{
-     background-color: royalblue;
+     background-color: #001d26;
      height: 25px;
      display:flex;
      justify-content:center;
@@ -176,16 +197,18 @@ a{ text-decoration: none;
      margin-top:2% ;
     }
     .box1{
-     background-color: tomato;
+     background-color: #001d26;
      height: auto;
      width: 100%;
      margin-bottom: 2%;
+     color:#08b1ff;
     }
     .box2{
-     background-color: green;
+     background-color: #001d26;
      height: auto;
      width: 100%;
      margin-top:2% ;
+     color:#08b1ff;
     }
     .menu {
         list-style: none; /*убираю маркеры списка*/
@@ -194,14 +217,17 @@ a{ text-decoration: none;
 
       }
 a{ text-decoration: none;
-  font-size: 15pt;}/*убираю подчеркивание текста ссылок*/
+  font-size: 15pt;
+  color:#08b1ff;}/*убираю подчеркивание текста ссылок*/
 .menu1 {
     margin-right:15px; /*Добавляю отступ у пунктов меню*/
     float:right; /*Размещаю список горизонтально для реализации меню*/
   }
   footer{
-   background-color: black;
-   height: 100px;
+   background-color: #001d26;
+   height: 30px;
+   text-align: center;
+   color:#08b1ff;
   }
   #Elon{
     float: left;
@@ -219,7 +245,16 @@ a{ text-decoration: none;
       padding: 10px;
     }
     header{
-     background-color: lightskyblue;
+      background-color: #001d26;
+      color:#08b1ff;
+     height: auto;
+
+    }
+    .prefooter{
+
+      text-align: center;
+     background-color: #001d26;
+     color: #08b1ff;
      height: auto;
     }
 }
