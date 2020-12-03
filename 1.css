@@ -125,11 +125,15 @@ a{ text-decoration: none;
      background-color: gray;
      height: auto;
     width: 100%;
+    margin: 0px;
     }
     #container{
       display: flex;
       justify-content: center;
       justify-content: space-between;
+      width:100%;
+      margin-right: 0px;
+      margin-left: 0px;
     }
     .box1{
      background-color: tomato;
@@ -151,7 +155,7 @@ a{ text-decoration: none;
     }
 }
 
-  @media ( max-width: 550px) {   /*------------------------------------------------------------------------------------------------------------------------------------------------*/
+  @media ( max-width: 551px) {   /*------------------------------------------------------------------------------------------------------------------------------------------------*/
     nav{
      background-color: royalblue;
      height: 25px;
